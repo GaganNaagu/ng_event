@@ -7,7 +7,8 @@ version '1.0.0'
 shared_scripts {
     -- '@qbx_core/modules/lib.lua',
     '@ox_lib/init.lua',
-    'shared/config.lua'
+    'shared/config.lua',
+    'shared/wrapper.lua'
 }
 
 server_scripts {

@@ -14,10 +14,10 @@ AddStateBagChangeHandler('eventData', nil, function(bagName, key, value)
             
             -- Level 2 Advanced Medical Control
             if newLevel == 2 and previousLevel ~= 2 then
-                exports.qbx_medical:SetAdvancedMedicalDisabled(true)
+                -- exports.qbx_medical:SetAdvancedMedicalDisabled(true)
                 DebugPrint("Advanced Medical DISABLED for Level 2")
             elseif newLevel ~= 2 and previousLevel == 2 then
-                exports.qbx_medical:SetAdvancedMedicalDisabled(false)
+                -- exports.qbx_medical:SetAdvancedMedicalDisabled(false)
                 DebugPrint("Advanced Medical ENABLED (Exited Level 2)")
             end
             
@@ -38,7 +38,7 @@ AddStateBagChangeHandler('eventData', nil, function(bagName, key, value)
         else
             -- Cleanup Advanced Medical on reset
             if previousLevel == 2 then
-                exports.qbx_medical:SetAdvancedMedicalDisabled(false)
+                -- exports.qbx_medical:SetAdvancedMedicalDisabled(false)
                 DebugPrint("Advanced Medical ENABLED (Event Ended/Left)")
             end
             previousLevel = 0

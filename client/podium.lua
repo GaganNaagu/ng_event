@@ -1,4 +1,5 @@
 local podiumCams = {} -- Store cameras for cleanup
+local podiumProp = nil -- Store podium prop for cleanup
 local inPodiumSequence = false
 
 
@@ -46,11 +47,21 @@ RegisterNetEvent("ng_event:client:ShowPodium", function(participants)
     local p1Winners = Config.Podium.Phase1WinnerAnimations
     local p1Crowd = Config.Podium.Phase1CrowdAnimation
 
+    -- Spawn Podium Prop
+    if Config.Podium.Prop and Config.Podium.Prop.model then
+        local propData = Config.Podium.Prop
+        lib.requestModel(propData.model)
+        podiumProp = CreateObject(propData.model, propData.coords.x, propData.coords.y, propData.coords.z, false, false, false)
+        SetEntityHeading(podiumProp, propData.coords.w or 0.0)
+        PlaceObjectOnGroundProperly(podiumProp)
+        FreezeEntityPosition(podiumProp, true)
+    end
+
     if myPlace > 0 and myPlace <= 3 and p1Winners[myPlace] then
         local coords = Config.Podium.WinnerCoords[myPlace]
         SetEntityCoords(ped, coords.x, coords.y, coords.z, false, false, false, false)
         SetEntityHeading(ped, coords.w or 0.0)
-        exports["rpemotes-reborn"]:EmoteCommandStart(p1Winners[myPlace])
+        Wrapper.PlayEmote(p1Winners[myPlace])
     else
         local crowdLocs = Config.Podium.ParticipantCoords
         if crowdLocs and #crowdLocs > 0 then
@@ -61,7 +72,7 @@ RegisterNetEvent("ng_event:client:ShowPodium", function(participants)
             SetEntityCoords(ped, loc.x, loc.y, loc.z, false, false, false, false)
             SetEntityHeading(ped, loc.w or 0.0)
             if p1Crowd then
-                exports["rpemotes-reborn"]:EmoteCommandStart(p1Crowd)
+                Wrapper.PlayEmote(p1Crowd)
             else
                 TaskStartScenarioInPlace(ped, "WORLD_HUMAN_CHEERING", 0, true)
             end
@@ -89,7 +100,7 @@ RegisterNetEvent("ng_event:client:ShowPodium", function(participants)
     Wait(duration)
 
     -- CLEAR Phase 1 Emotes/Tasks
-    exports["rpemotes-reborn"]:EmoteCancel()
+    Wrapper.CancelEmote()
     ClearPedTasksImmediately(ped)
 
     -- Phase 2: Finale Grid
@@ -224,7 +235,7 @@ RegisterNetEvent("ng_event:client:ShowPodium", function(participants)
     local p2Pool = Config.Podium.Phase2AnimationPool
     if p2Pool and #p2Pool > 0 then
         local emoteName = p2Pool[math.random(1, #p2Pool)]
-        exports["rpemotes-reborn"]:EmoteCommandStart(emoteName)
+        Wrapper.PlayEmote(emoteName)
     end
 
     print("Podium: Starting Dynamic Camera Sequence")
@@ -369,7 +380,14 @@ RegisterNetEvent("ng_event:client:EventEnded", function()
             
             -- Reset player state after ease-out
             ClearPedTasksImmediately(ped)
-            exports["rpemotes-reborn"]:EmoteCancel()
+            Wrapper.CancelEmote()
+
+            -- Delete Podium Prop
+            if podiumProp and DoesEntityExist(podiumProp) then
+                DeleteObject(podiumProp)
+                podiumProp = nil
+            end
+
             SetEntityInvincible(ped, false)
             FreezeEntityPosition(ped, false)
             

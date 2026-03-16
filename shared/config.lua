@@ -1,12 +1,13 @@
 Config = {}
 
 Config.Core = "qbx_core"
+Config.EmoteSystem = "scully_emotemenu" -- "rpemotes-reborn", "scully_emotemenu"
 Config.MainBucket = 100
 Config.PersonalBucketStart = 5000
 Config.MaxWinners = 3
 Config.UseEventID = false -- If false, /joinevent doesn't require an ID
 Config.TeleportOnEventEnd = true
-Config.TeleportOnEventEndCoords = vector4(4859.22, -4934.78, 0.18, 75.75)
+Config.TeleportOnEventEndCoords = vec4(-1845.03, -888.66, 0.78, 125.11)
 
 Config.Admins = {
     "license:cfdbadb7a85f5336adbd44da4ba010b2071d4db1", -- Naagu
@@ -234,27 +235,31 @@ Config.Predators = {
 -- Cinematic Podium
 Config.Podium = {
     Duration = 15000, -- How long Phase 1 (Winner Podium) lasts
+    Prop = {
+        model = `xs_prop_arena_podium_02a`,
+        coords = vec4(-1803.63, -839.63, 6.28, 118.21), -- Example coords, user can adjust
+    },
     Phase2Duration = false, -- If false, fetches duration from video. If number, uses that fixed ms.
     MusicURL = "https://www.youtube.com/watch?v=iqLN1abVEOM&list=RDiqLN1abVEOM&start_radio=1", -- Victory Theme
     LoopMusic = false, -- Whether the music should loop
     StartCamera = {
-        coords = vector3(4901.30, -4899.16, 7.39), 
-        rot = vector3(-14.11, -0.00, -129.56)
+        coords = vector3(-1814.17, -865.72, 9.93), 
+        rot = vector3(-16.02, -0.00, -23.84)
     },
     EndCamera = {
-        coords = vector3(4912.73, -4914.63, 4.10),
-        rot = vector3(-2.49, 0.00, 157.85)
+        coords = vector3(-1807.78, -840.41, 7.95),
+        rot = vector3(-8.26, -0.00, -85.51)
     },
     WinnerCoords = {
-        vector4(4911.22, -4918.35, 2.76, 345.39), -- 1st Place
-        vector4(4911.98, -4918.53, 2.61, 335.22), -- 2nd Place
-        vector4(4910.46, -4918.03, 2.61, 339.09)  -- 3rd Place
+        vector4(-1803.63, -839.63, 6.28, 118.21), -- 1st Place
+        vector4(-1803.63, -839.63, 6.28, 118.21), -- 2nd Place
+        vector4(-1803.63, -839.63, 6.28, 118.21)  -- 3rd Place
     },
     ParticipantCoords = { -- Where the crowd stands
-        vector4(4911.09, -4910.67, 2.36, 167.76),
-        vector4(4913.58, -4911.36, 2.36, 158.00),
-        vector4(4915.98, -4912.41, 2.36, 148.34),
-        vector4(4917.98, -4914.43, 2.37, 133.34),
+        vector4(-1803.63, -839.63, 6.28, 118.21),
+        vector4(-1803.63, -839.63, 6.28, 118.21),
+        vector4(-1803.63, -839.63, 6.28, 118.21),
+        vector4(-1803.63, -839.63, 6.28, 118.21),
     },
     Grid = {
         MaxPerRow = 15,
