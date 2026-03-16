@@ -16,7 +16,7 @@ Config.Admins = {
 
 Config.HUD = {
     -- Options: 'top-center', 'top-left', 'top-right', 'bottom-center', 'bottom-left', 'bottom-right', 'center-left', 'center-right'
-    Position = 'bottom-center' 
+    Position = 'bottom-center'
 }
 
 Config.VehicleRestrictedZones = {
@@ -209,7 +209,7 @@ Config.Levels = {
         name = "Final Escape",
         description = "Reach the extraction point!",
         finishEntityType = 'ped', -- 'ped' or 'prop'
-        finishEntityModel = `a_m_m_skater_01`, 
+        finishEntityModel = `a_m_m_skater_01`,
         finishMarkers = {
             vector4(4961.97, -4824.59, 4.89, 4.22),
         },
@@ -243,7 +243,7 @@ Config.Podium = {
     MusicURL = "https://www.youtube.com/watch?v=iqLN1abVEOM&list=RDiqLN1abVEOM&start_radio=1", -- Victory Theme
     LoopMusic = false, -- Whether the music should loop
     StartCamera = {
-        coords = vector3(-1814.17, -865.72, 9.93), 
+        coords = vector3(-1814.17, -865.72, 9.93),
         rot = vector3(-16.02, -0.00, -23.84)
     },
     EndCamera = {
@@ -275,12 +275,12 @@ Config.Podium = {
 
     -- Phase 2: Cinematic Grid Animations (Random Pool)
     Phase2AnimationPool = {
-        "dance", "dance2", "dance3", "dance4", "dance5", 
+        "dance", "dance2", "dance3", "dance4", "dance5",
         "dance6", "dance7", "dance8", "dance9"
     }
 }
 
-Config.Debug = false
+Config.Debug = true
 
 function DebugPrint(...)
     if Config.Debug then
