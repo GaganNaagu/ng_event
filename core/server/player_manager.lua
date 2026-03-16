@@ -14,6 +14,10 @@ function PlayerManager.GetPlayer(src)
     return players[src]
 end
 
+function PlayerManager.IsAdmin(src)
+    return Framework.IsAdmin(src)
+end
+
 function PlayerManager.ClearAllPlayers()
     players = {}
     disconnectedPlayers = {}

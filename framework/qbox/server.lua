@@ -33,3 +33,8 @@ end
 function Framework.AddItem(src, item, amount, metadata, slot)
     exports.ox_inventory:AddItem(src, item, amount, metadata, slot)
 end
+
+function Framework.IsAdmin(src)
+    return exports.qbx_core:HasPermission(src, 'admin') or IsPlayerAceAllowed(src, 'command')
+end
+
