@@ -22,8 +22,8 @@ server_scripts {
     'core/server/level_manager.lua',
     'core/server/event_manager.lua',
 
-    'modules/*/server.lua',
-    'levels/*/server.lua'
+    'modules/**/server.lua',
+    'levels/**/server.lua'
 }
 
 client_scripts {
@@ -32,9 +32,9 @@ client_scripts {
 
     'core/client/level_manager.lua',
 
-    'modules/*/client.lua',
-    'modules/*/nui.lua',
-    'levels/*/client.lua'
+    'modules/**/client.lua',
+    'modules/**/nui.lua',
+    'levels/**/client.lua'
 }
 
 ui_page 'ui/dist/index.html'
