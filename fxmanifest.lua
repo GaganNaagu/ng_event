@@ -1,51 +1,46 @@
 fx_version 'cerulean'
 game 'gta5'
 
-description 'Extreme Multi-Level Event for QBox'
-version '1.0.0'
+description 'Extreme Multi-Level Event for QBox (Modular)'
+version '2.0.0'
 
 shared_scripts {
-    -- '@qbx_core/modules/lib.lua',
     '@ox_lib/init.lua',
-    'shared/config.lua',
-    'shared/wrapper.lua'
+    'config/shared/config.lua',
+    'config/shared/levels.lua',
+    'core/shared/compatibility.lua'
 }
 
 server_scripts {
     '@oxmysql/lib/MySQL.lua',
-    'server/main.lua',
-    'server/bucket_manager.lua',
-    'server/event_inventory.lua',
-    'server/event_vehicle.lua',
-    'server/level_setup.lua',
-    'server/state_sync.lua',
-    'server/transition_controller.lua',
-    'server/ui_handler.lua',
-    'server/level1.lua',
-    'server/level2.lua',
-    'server/level3.lua',
-    'server/level4.lua',
-    'server/level5.lua',
-    'server/level6.lua'
+    
+    'framework/qbox/server.lua',
+
+    'core/server/state_manager.lua',
+    'core/server/transition_manager.lua',
+    'core/server/player_manager.lua',
+    'core/server/level_manager.lua',
+    'core/server/event_manager.lua',
+
+    'modules/*/server.lua',
+    'levels/*/server.lua'
+}
+
+client_scripts {
+    'framework/qbox/client.lua',
+    'target/ox_target/client.lua',
+
+    'core/client/level_manager.lua',
+
+    'modules/*/client.lua',
+    'modules/*/nui.lua',
+    'levels/*/client.lua'
 }
 
 ui_page 'ui/dist/index.html'
 
 files {
     'ui/dist/**/*'
-}
-
-client_scripts {
-    -- '@qbx_core/modules/playerdata.lua',
-    'client/main.lua',
-    'client/event_vehicle.lua',
-    'client/nui.lua',
-    'client/state_listener.lua',
-    'client/ui.lua',
-    'client/vehicle_restrictor.lua',
-    'client/zones.lua',
-    'client/podium.lua',
-    'client/levels/*.lua',
 }
 
 dependencies {
