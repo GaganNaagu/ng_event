@@ -1,0 +1,184 @@
+{
+    "citizenid": "X84WFII2",
+    "items": [
+        {
+            "close": false,
+            "name": "WEAPON_GLOCK21",
+            "metadata": {
+                "ammo": 18,
+                "durability": 95.50000000000004,
+                "serial": "228615POL988802",
+                "components": [
+                    "at_flashlight"
+                ],
+                "registered": "Ganesh Deshpande"
+            },
+            "count": 1,
+            "weight": 2390,
+            "stack": false,
+            "label": "GLOCK 21",
+            "slot": 1
+        },
+        null,
+        null,
+        null,
+        {
+            "close": true,
+            "name": "ifaks",
+            "metadata": [],
+            "count": 10,
+            "weight": 2000,
+            "stack": true,
+            "label": "Individual First Aid Kit",
+            "slot": 5
+        },
+        {
+            "close": true,
+            "name": "camera",
+            "metadata": [],
+            "count": 1,
+            "weight": 1000,
+            "stack": false,
+            "label": "Camera",
+            "slot": 6
+        },
+        {
+            "close": true,
+            "name": "money",
+            "metadata": [],
+            "count": 47640,
+            "weight": 0,
+            "stack": true,
+            "label": "Money",
+            "slot": 7
+        },
+        {
+            "close": true,
+            "name": "radio",
+            "metadata": {
+                "radioId": "EC7MM9G09123",
+                "name": "Surya Pratap"
+            },
+            "count": 1,
+            "weight": 1000,
+            "stack": true,
+            "label": "Radio",
+            "slot": 8
+        },
+        {
+            "name": "advancedrepairkit",
+            "metadata": [],
+            "count": 3,
+            "close": true,
+            "description": "A nice toolbox with stuff to repair your vehicle",
+            "weight": 15000,
+            "stack": true,
+            "slot": 9,
+            "label": "Advanced Repairkit"
+        },
+        {
+            "close": true,
+            "name": "gps",
+            "metadata": [],
+            "count": 1,
+            "weight": 100,
+            "stack": false,
+            "label": "GPS",
+            "slot": 10
+        },
+        {
+            "close": true,
+            "name": "phone",
+            "metadata": [],
+            "count": 1,
+            "weight": 150,
+            "stack": false,
+            "label": "Classic Phone",
+            "slot": 11
+        },
+        {
+            "close": true,
+            "name": "id_card",
+            "metadata": {
+                "firstname": "Ganesh",
+                "nationality": "India",
+                "gender": 0,
+                "lastname": "Deshpande",
+                "mugShot": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAIBJREFUeF7t14ERACAMAjG6/9A6yMcROEuO2/YWficAP8AJ6IBwB04JUoACFKAABcIJYBCDGMQgBsMIGEMYxCAGMYhBDIYTwCAGMYhBDIYRsAYxiEEMYhCDGAwngEEMYhCDGAwjYA1iEIMYxCAGMRhOAIMYxCAGMRhGwBrEYJ3BD9uJQAFArgLjAAAAAElFTkSuQmCC",
+                "birthdate": "2002-01-02"
+            },
+            "count": 1,
+            "weight": 0,
+            "stack": true,
+            "label": "Identification Card",
+            "slot": 12
+        },
+        {
+            "close": false,
+            "name": "handcuffs",
+            "metadata": [],
+            "count": 1,
+            "weight": 100,
+            "stack": false,
+            "label": "Handcuffs",
+            "slot": 13
+        },
+        {
+            "close": true,
+            "name": "driver_license",
+            "metadata": {
+                "firstname": "Ganesh",
+                "type": "Class C Driver License",
+                "birthdate": "2002-01-02",
+                "lastname": "Deshpande",
+                "mugShot": "data:image/png;base64,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"
+            },
+            "count": 1,
+            "weight": 0,
+            "stack": true,
+            "label": "Drivers License",
+            "slot": 14
+        },
+        {
+            "close": false,
+            "name": "WEAPON_NIGHTSTICK",
+            "metadata": {
+                "serial": "POL",
+                "components": [],
+                "registered": true,
+                "durability": 100
+            },
+            "count": 1,
+            "weight": 1000,
+            "stack": false,
+            "label": "Nightstick",
+            "slot": 15
+        },
+        {
+            "close": false,
+            "name": "WEAPON_STUNGUN",
+            "metadata": {
+                "serial": "180066OVO453038",
+                "components": [],
+                "registered": "Ganesh Deshpande",
+                "durability": 100
+            },
+            "count": 1,
+            "weight": 227,
+            "stack": false,
+            "label": "Tazer",
+            "slot": 16
+        },
+        null,
+        {
+            "close": true,
+            "name": "ammo-45",
+            "metadata": [],
+            "count": 17,
+            "weight": 255,
+            "stack": true,
+            "label": ".45 ACP",
+            "slot": 18
+        }
+    ]
+}

@@ -1,0 +1,108 @@
+{
+    "citizenid": "W9KJ1ZBR",
+    "items": {
+        "2": {
+            "close": true,
+            "name": "radio",
+            "metadata": [],
+            "count": 1,
+            "weight": 1000,
+            "stack": true,
+            "label": "Radio",
+            "slot": 2
+        },
+        "3": {
+            "name": "lighter",
+            "metadata": [],
+            "count": 1,
+            "close": true,
+            "description": "",
+            "weight": 200,
+            "stack": true,
+            "slot": 3,
+            "label": "Lighter"
+        },
+        "4": {
+            "name": "cigs",
+            "metadata": [],
+            "count": 20,
+            "close": true,
+            "description": "",
+            "weight": 4000,
+            "stack": true,
+            "slot": 4,
+            "label": "Cigarette"
+        },
+        "23": {
+            "close": true,
+            "name": "bandage",
+            "metadata": [],
+            "count": 8,
+            "weight": 0.8,
+            "stack": true,
+            "label": "Bandage",
+            "slot": 23
+        },
+        "24": {
+            "close": true,
+            "name": "black_phone",
+            "metadata": [],
+            "count": 1,
+            "weight": 150,
+            "stack": false,
+            "label": "Black Phone",
+            "slot": 24
+        },
+        "25": {
+            "close": true,
+            "name": "id_card",
+            "metadata": {
+                "firstname": "Yuvaraj",
+                "nationality": "Yemen",
+                "gender": 0,
+                "lastname": "Shetty",
+                "birthdate": "2003-08-07"
+            },
+            "count": 1,
+            "weight": 0,
+            "stack": true,
+            "label": "Identification Card",
+            "slot": 25
+        },
+        "5": {
+            "close": true,
+            "name": "racing_gps",
+            "metadata": [],
+            "count": 1,
+            "weight": 200,
+            "stack": true,
+            "label": "Race Tablet",
+            "slot": 5
+        },
+        "20": {
+            "close": true,
+            "name": "driver_license",
+            "metadata": {
+                "firstname": "Yuvaraj",
+                "lastname": "Shetty",
+                "type": "Class C Driver License",
+                "birthdate": "2003-08-07"
+            },
+            "count": 1,
+            "weight": 0,
+            "stack": true,
+            "label": "Drivers License",
+            "slot": 20
+        },
+        "10": {
+            "close": true,
+            "name": "money",
+            "metadata": [],
+            "count": 383,
+            "weight": 0,
+            "stack": true,
+            "label": "Money",
+            "slot": 10
+        }
+    }
+}

@@ -1,0 +1,4 @@
+node_modules/
+.vscode/
+ui/node_modules/
+.env
