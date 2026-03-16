@@ -30,7 +30,7 @@ function IsAdmin(src)
     return false
 end
 
-local HISTORY_FILE = "event_history.json"
+local HISTORY_FILE = "data/event_history.json"
 
 function SaveHistory()
     local jsonStr = json.encode(EventState.history)
