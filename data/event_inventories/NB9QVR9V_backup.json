@@ -1,0 +1,237 @@
+{
+    "items": {
+        "1": {
+            "metadata": [],
+            "close": true,
+            "name": "illegal_tablet",
+            "slot": 1,
+            "count": 1,
+            "label": "Illegal Tablet",
+            "stack": false,
+            "weight": 1.0
+        },
+        "2": {
+            "metadata": {
+                "container": "OTS1773210677",
+                "size": [
+                    3,
+                    2000
+                ],
+                "weight": 550
+            },
+            "close": true,
+            "name": "titanium_rod",
+            "slot": 2,
+            "count": 1,
+            "label": "Titanium rod",
+            "stack": false,
+            "weight": 1000
+        },
+        "3": {
+            "metadata": {
+                "components": [],
+                "durability": 93.60000000000032
+            },
+            "close": false,
+            "name": "WEAPON_KNIFE",
+            "slot": 3,
+            "count": 1,
+            "label": "Knife",
+            "stack": false,
+            "weight": 300
+        },
+        "4": {
+            "metadata": {
+                "components": [],
+                "durability": 97.9000000000001
+            },
+            "close": false,
+            "name": "WEAPON_BATTLEAXE",
+            "slot": 4,
+            "count": 1,
+            "label": "Battle Axe",
+            "stack": false,
+            "weight": 6500
+        },
+        "5": {
+            "metadata": {
+                "components": [],
+                "durability": 92.30000000000033
+            },
+            "close": false,
+            "name": "WEAPON_AXE",
+            "slot": 5,
+            "count": 1,
+            "label": "AXE",
+            "stack": false,
+            "weight": 2000
+        },
+        "6": {
+            "metadata": [],
+            "close": true,
+            "name": "panties",
+            "slot": 6,
+            "count": 1,
+            "label": "Knickers",
+            "stack": true,
+            "weight": 10
+        },
+        "7": {
+            "metadata": [],
+            "close": true,
+            "name": "metalscrap",
+            "slot": 7,
+            "count": 1,
+            "label": "Metal Scrap",
+            "stack": true,
+            "weight": 100
+        },
+        "9": {
+            "metadata": [],
+            "close": true,
+            "name": "ammo-45",
+            "slot": 9,
+            "count": 4,
+            "label": ".45 ACP",
+            "stack": true,
+            "weight": 60
+        },
+        "10": {
+            "metadata": [],
+            "close": true,
+            "name": "ammo-22",
+            "slot": 10,
+            "count": 2,
+            "label": ".22 Long Rifle",
+            "stack": true,
+            "weight": 6
+        },
+        "49": {
+            "metadata": [],
+            "close": true,
+            "name": "money",
+            "slot": 49,
+            "count": 13562,
+            "label": "Money",
+            "stack": true,
+            "weight": 0
+        },
+        "50": {
+            "metadata": [],
+            "close": true,
+            "name": "black_phone",
+            "slot": 50,
+            "count": 1,
+            "label": "Black Phone",
+            "stack": false,
+            "weight": 150
+        },
+        "17": {
+            "metadata": {
+                "crafted_by": "Mark Anthony",
+                "type": "food",
+                "description": "A hearty vegetarian sushi-style bowl prepared with seasoned rice and fresh garden vegetables.",
+                "close": true,
+                "durability": 1773669122,
+                "quality": 100,
+                "weight": 250,
+                "imageurl": "https://r2.fivemanage.com/Y6dfHSvbUT8yD3bZk8GAq/Garden_Fresh_Sushi_Bowl.png",
+                "crafted_at": "2026-03-09 22:16:39",
+                "stack": true,
+                "degrade": 6000,
+                "food_id": 44,
+                "label": "Garden Fresh Sushi Bowl",
+                "ingredients": [
+                    {
+                        "name": "rice",
+                        "amount": 2
+                    },
+                    {
+                        "name": "spinach",
+                        "amount": 2
+                    },
+                    {
+                        "name": "tomato",
+                        "amount": 2
+                    },
+                    {
+                        "name": "pasta",
+                        "amount": 2
+                    },
+                    {
+                        "name": "beans",
+                        "amount": 2
+                    }
+                ],
+                "restaurant_id": "zaibatsu"
+            },
+            "description": "A delicious main course",
+            "close": true,
+            "stack": false,
+            "weight": 550,
+            "slot": 17,
+            "count": 1,
+            "label": "Main Dish",
+            "name": "restaurant_main"
+        },
+        "48": {
+            "metadata": [],
+            "close": true,
+            "name": "copper",
+            "slot": 48,
+            "count": 1,
+            "label": "Copper",
+            "stack": true,
+            "weight": 1
+        },
+        "20": {
+            "metadata": {
+                "crafted_by": "Mark Anthony",
+                "type": "food",
+                "description": "Rich milk blended with honey and citrus for a smooth, refreshing finish.",
+                "close": true,
+                "durability": 1773669072,
+                "quality": 100,
+                "weight": 250,
+                "imageurl": "https://r2.fivemanage.com/ak8VWXTNwT9gvcZr05NP8/Imperial-Honey-Citrus-Milk.png",
+                "crafted_at": "2026-03-01 22:03:05",
+                "stack": true,
+                "degrade": 6000,
+                "food_id": 39,
+                "label": "Imperial Honey Citrus Milk",
+                "ingredients": [
+                    {
+                        "name": "sugar",
+                        "amount": 2
+                    },
+                    {
+                        "name": "milk",
+                        "amount": 2
+                    },
+                    {
+                        "name": "orange",
+                        "amount": 2
+                    },
+                    {
+                        "name": "honey",
+                        "amount": 2
+                    },
+                    {
+                        "name": "ginger",
+                        "amount": 1
+                    }
+                ],
+                "restaurant_id": "zaibatsu"
+            },
+            "description": "A refreshing drink",
+            "close": true,
+            "stack": false,
+            "weight": 350,
+            "slot": 20,
+            "count": 1,
+            "label": "Beverage",
+            "name": "restaurant_drink"
+        }
+    },
+    "citizenid": "NB9QVR9V"
+}

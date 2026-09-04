@@ -1,0 +1,224 @@
+{
+    "citizenid": "A9S59P4B",
+    "items": [
+        {
+            "close": false,
+            "name": "WEAPON_FIREWORK",
+            "metadata": {
+                "ammo": -1,
+                "durability": 99.5,
+                "serial": "286602YXG326226",
+                "components": [],
+                "registered": "Surya Pratap"
+            },
+            "count": 1,
+            "weight": 800,
+            "stack": false,
+            "label": "Firework Launcher",
+            "slot": 1
+        },
+        {
+            "close": true,
+            "name": "racing_gps",
+            "metadata": [],
+            "count": 1,
+            "weight": 200,
+            "stack": true,
+            "label": "Race Tablet",
+            "slot": 2
+        },
+        {
+            "close": true,
+            "name": "graphite_rod",
+            "metadata": {
+                "size": [
+                    3,
+                    2000
+                ],
+                "container": "UBR1773149209"
+            },
+            "count": 1,
+            "weight": 350,
+            "stack": false,
+            "label": "Graphite rod",
+            "slot": 3
+        },
+        {
+            "close": true,
+            "name": "firework1",
+            "metadata": [],
+            "count": 33,
+            "weight": 33000,
+            "stack": true,
+            "label": "2Brothers",
+            "slot": 4
+        },
+        {
+            "name": "lighter",
+            "metadata": [],
+            "count": 5,
+            "close": true,
+            "description": "",
+            "weight": 1000,
+            "stack": true,
+            "slot": 5,
+            "label": "Lighter"
+        },
+        {
+            "close": true,
+            "name": "black_phone",
+            "metadata": [],
+            "count": 1,
+            "weight": 150,
+            "stack": false,
+            "label": "Black Phone",
+            "slot": 6
+        },
+        {
+            "close": true,
+            "name": "heistpack_tablet",
+            "metadata": [],
+            "count": 1,
+            "weight": 1.0,
+            "stack": true,
+            "label": "Heistpack Tablet",
+            "slot": 7
+        },
+        {
+            "close": true,
+            "name": "basic_rod",
+            "metadata": {
+                "size": [
+                    3,
+                    2000
+                ],
+                "container": "MIH1773149209"
+            },
+            "count": 1,
+            "weight": 250,
+            "stack": false,
+            "label": "Fishing rod",
+            "slot": 8
+        },
+        {
+            "close": true,
+            "name": "titanium_rod",
+            "metadata": {
+                "size": [
+                    3,
+                    2000
+                ],
+                "weight": 1580,
+                "container": "MZC1773149209"
+            },
+            "count": 1,
+            "weight": 2030,
+            "stack": false,
+            "label": "Titanium rod",
+            "slot": 9
+        },
+        {
+            "close": false,
+            "name": "WEAPON_SMOK2GRENADE",
+            "metadata": {
+                "durability": 100,
+                "components": []
+            },
+            "count": 5,
+            "weight": 3000,
+            "stack": true,
+            "label": "Smoke Grenade",
+            "slot": 10
+        },
+        {
+            "close": true,
+            "name": "racechip",
+            "metadata": [],
+            "count": 1,
+            "weight": 100,
+            "stack": true,
+            "label": "Race Chip",
+            "slot": 11
+        },
+        {
+            "close": true,
+            "name": "money",
+            "metadata": [],
+            "count": 7294,
+            "weight": 0,
+            "stack": true,
+            "label": "Money",
+            "slot": 12
+        },
+        {
+            "close": true,
+            "name": "racing_tablet",
+            "metadata": [],
+            "count": 1,
+            "weight": 200,
+            "stack": true,
+            "label": "Race Tablet",
+            "slot": 13
+        },
+        {
+            "name": "fish_cooler_box_small",
+            "metadata": {
+                "size": [
+                    10,
+                    15000
+                ],
+                "container": "VDB1773148558"
+            },
+            "count": 1,
+            "close": true,
+            "description": "A cooler box to storage some fish.",
+            "weight": 300,
+            "stack": false,
+            "slot": 14,
+            "label": "Small cooler box"
+        },
+        {
+            "close": true,
+            "name": "heavy_armour",
+            "metadata": [],
+            "count": 9,
+            "weight": 27000,
+            "stack": true,
+            "label": "Heavy Bulletproof Vest",
+            "slot": 15
+        },
+        {
+            "close": true,
+            "name": "small_fishing_net",
+            "metadata": [],
+            "count": 1,
+            "weight": 200,
+            "stack": true,
+            "label": "Small fishing net",
+            "slot": 16
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        {
+            "name": "fish_cooler_box_small",
+            "metadata": {
+                "size": [
+                    10,
+                    15000
+                ],
+                "container": "KTZ1773149209"
+            },
+            "count": 1,
+            "close": true,
+            "description": "A cooler box to storage some fish.",
+            "weight": 300,
+            "stack": false,
+            "slot": 23,
+            "label": "Small cooler box"
+        }
+    ]
+}
